@@ -1,0 +1,52 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "can_fit_height": false,
+    "can_fit_width": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 400,
+        "width": 400
+    },
+    "display": "Image Gallery",
+    "fields": {
+        "AAE": {
+            "caption": "Source",
+            "editor": "DynamicValue",
+            "name": "source",
+            "optional": false,
+            "rank": 0,
+            "value": "image"
+        },
+        "AAF": {
+            "caption": "ALT tag",
+            "editor": "DynamicValue",
+            "name": "alt_tag",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "Gallery ID",
+            "default_val": "gallery",
+            "doc": "If you have a group of related images that you would like to combine into a set, use the same Gallery ID attribute value for all of the images",
+            "editor": "DynamicValue",
+            "name": "gallery_id",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Caption",
+            "editor": "DynamicValue",
+            "name": "caption",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        }
+    },
+    "icon": "ion-images",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    }
+}
